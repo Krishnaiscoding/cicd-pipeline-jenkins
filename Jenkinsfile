@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    environments {
+    environment {
         IMAGE_NAME = 'jenkins-pipeline'
         CONTAINER_NAME = 'jenkins-pipeline-container'
 
